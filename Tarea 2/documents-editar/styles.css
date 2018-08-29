@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/* Hugo Ivan Carrillo Béjar
+    A01333819  */
+
+html {
+    height: 100%;
+}
+
+html {
+   background-color: rgb(220, 172, 140);
+}
+
+body {
+   background-color: rgb(230, 220, 210);
+   font-family: Verdana, Geneva, Arial, sans-serif; 
+}
+
+body {
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, ul, nav, li, a {
+    box-sizing: border-box;
+}
+
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+body > header {
+   background-color: rgb(55, 130, 205);
+}
+
+
+body > header > nav a {
+   font-size: 1em;
+   margin: 0.4em 0;
+   padding: 5px;
+}
+
+body > header > nav a:link, body > header > nav:visited {
+   color: rgb(220, 220, 205);
+}
+
+body > header > nav a:hover, body > header > nav:active {
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+body>header>img {
+   display: block;
+   width: 70%;
+   float: left;
+}
+
+body>header>nav {
+    display: block;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+    
+}
+
+body header a {
+    display: block;
+    width: 100%;
+}
+
+
+.barra li {
+    display: block;
+    width: 12.5%;
+    float: left;
+}
+
+nav.barra ul li {
+   background-color: rgb(18, 25, 90);  
+   font-size: 0.9em;
+   padding: 10px 0;
+   text-align: center;     
+}
+
+nav.barra a:link, nav.barra a:visited {
+   color: rgb(242, 220, 210);
+}
+
+nav.barra a:hover, nav.barra a:active {
+   color: rgb(250, 100, 250);
+}
+
+
+#topics ul, #topics li {
+    display: block;
+    width: 20%;
+    float:left;
+    margin-left: 0%;
+    margin-right: 1.5%;
+
+}
+
+#topics :first-child {
+    margin-left: 7.5%;
+}
+
+#topics :last-child {
+    margin-right: 7.5%;
+}
+
+#topics img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+   ul#topics {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+
+ul#topics li p {
+   color: rgb(95, 105, 215);
+   font-size: 0.8em;
+}
+
+hr {
+    width: 50%;
+}
+
+
+#comments {
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comments li {
+    display: block;
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+ul#comments li p {
+   font-size: 0.9em;
+   color: rgb(115, 115, 115);
+   line-height: 1.2em;
+}
+
+#comments  img {
+   float: left;
+   border-radius: 50px;
+   width: 70px;
+   height: 70px;
+}
+
+footer {
+   display: block;
+   clear: both;
+   color: rgb(186, 186, 156);
+   background-color: rgb(30, 85, 150);
+   font-size: 0.9em;
+   padding: 10px 0px;
+   text-align: center;
+}
