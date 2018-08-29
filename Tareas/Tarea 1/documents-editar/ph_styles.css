@@ -1,0 +1,163 @@
+@charset "utf-8";
+/*
+   Laboratory 2.
+   
+   PHCT Typographic Style Sheet
+   Author: Hugo Ivan Carrillo Bejar - A01333819
+   Date:   22/08/2018   
+   
+   Filename: ph_styles.css
+
+*/
+
+@font-face {
+	font-family: desire;
+	src: url(1942.woff);
+}
+
+@font-face {
+	font-family: merry;
+	src: url(cac_champagne.woff);
+}
+
+@font-face {
+	font-family: earnest;
+	src: url(DobkinPlain.woff);
+}
+
+body {
+	background-color: rgb(85, 107, 47);
+}
+
+body > header > nav {
+	background-color: rgb(50, 50, 50);
+}
+
+body > p{
+	background-color: rgb(220, 220, 220);
+	text-align: center;
+	font-size: 1.1em;
+}
+
+body > footer {
+	background-color: rgb(200, 200, 200);
+}
+
+/* Structural Styles */
+
+p {
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+}
+
+body > footer > address {
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* Navigation Styles */
+
+#play1 > nav {
+	background-color: rgb(134, 160, 254);
+}
+
+#play2 > nav {
+	background-color: rgb(162, 79, 3);
+}
+
+#play3 > nav {
+	background-color: rgb(136, 57, 56);
+}
+
+#play4 > nav {
+	background-color: rgb(143, 99, 227);
+}
+
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav a:link {
+	color: white;
+	text-decoration: none;
+	background-color: hsla(0, 0%, 42%, 0.4);
+}
+
+nav a:visited {
+	color: white;
+	text-decoration: none;
+	background-color: hsla(0, 0%, 42%, 0.4);
+}
+
+nav a:hover {
+	color: hsla(0, 0%, 100%, 0.7);
+	background-color: hsla(0, 0%, 42%, 0.7);
+}
+
+nav a:active {
+	color: hsla(0, 0%, 100%, 0.7);
+	background-color: hsla(0, 0%, 42%, 0.7);
+}
+
+/* Section Styles */
+
+#play1 {
+	background-color: rgb(171, 177, 254);
+}
+
+#play1 > h1{
+	font-family: merry;
+}
+
+#play2 {
+	background-color: rgb(207, 119, 27);
+}
+
+#play2 > h1{
+	font-family: desire;
+}
+
+#play3 {
+	background-color: rgb(179, 99, 85);
+}
+
+#play3 > h1{
+	font-family: 'Anton', sans-serif;
+}
+
+#play4 {
+	background-color: rgb(191, 156, 255);
+}
+
+#play4 > h1{
+	font-family: earnest;
+}
+
+body h1 {
+	font-size: 50px;
+	margin: 0;
+	padding: 20px;
+}
+
+body dl {
+	text-align: left;
+}
+
+aside {
+	font-size: 22px;
+}
+
+section p {
+	font-size: 17px;
+}
+
+/* Description List Styles */
+
